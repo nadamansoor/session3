@@ -1,5 +1,11 @@
-import 'package:session3/session3.dart' as session3;
-
+import 'features/transactions/trans.dart';
 void main(List<String> arguments) {
-  print('Hello world: ${session3.calculate()}!');
-}
+
+  Bank bk =Bank();
+  bk.getBalance;
+  bk.deposit=5000;
+  bk.getBalance;
+  bk.withdrow=300;
+  bk.getBalance;
+
+  }
